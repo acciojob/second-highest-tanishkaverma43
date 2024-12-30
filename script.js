@@ -1,8 +1,8 @@
-//your JS code here. If required.
 function secondHighest(arr) {
   
   if (arr.length < 2) {
     return -Infinity; 
+  }
 
   let max = -Infinity; 
   let secondMax = -Infinity; 
@@ -22,3 +22,5 @@ function secondHighest(arr) {
 
   return secondMax;
 }
+var arr = [5, 1, 2, 3, 4];
+console.log("The second highest number in the array is: " + secondHighest(arr));
